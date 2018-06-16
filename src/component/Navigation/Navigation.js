@@ -8,7 +8,8 @@ function Navigation() {
     textDecoration: "none",
     color: "#ccc",
     height: "32px",
-    lineHeight: "32px"
+    lineHeight: "32px",
+    fontSize: '1.2em'
   };
   const activeStyle = {
     color: "#1296db"
@@ -24,7 +25,7 @@ function Navigation() {
      </div>
      <div className="nav">
        <div>
-         <NavLink style={style} activeStyle={activeStyle} to="/ranklist">
+         <NavLink style={style} activeStyle={activeStyle} to="/scorelist">
            排行榜
          </NavLink>
        </div>

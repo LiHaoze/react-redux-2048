@@ -1,15 +1,16 @@
 import React from 'react';
+import Score from '../component/ScoreList/ScoreList';
 import Navigation from '../component/Navigation/Navigation';
 
-class RankList extends React.Component {
+class ScoreList extends React.Component {
   render() {
     return (
       <div>
+        <Score/>
         <Navigation/>
-        2
       </div>
     )
   }
 }
 
-export default RankList;
+export default ScoreList;
